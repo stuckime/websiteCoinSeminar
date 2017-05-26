@@ -1,0 +1,124 @@
+*{
+    font-family: Roboto, Arial, Helvetica, sans-serif
+}
+
+header{
+    
+    width: 100%;
+    height: auto;
+}
+footer {
+    background-color: #101010;
+    height: 60px;
+    color: #D0D0D0;
+    font-size: 0.6em;
+    padding: 2%;
+    text-align: right;
+}
+h2{
+    color: white;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+#headerImg p{
+    text-align: center;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    font-size: 2.5em;
+    margin: 0;
+}
+#headerImg{
+    width: 100%;
+    height: auto;
+    background-image: url("../images/header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.continentImage{
+    background-color: white;
+    margin: 3%;
+    width: 25%; 
+    float: left;
+}
+.continentInfos{
+    padding: 3%;
+}
+.continentInfos p{
+    padding: 0;
+    margin: 0;
+    font-size: 1.5em;
+    color: black;   
+}
+.continentInfos p.title{
+    color: white;
+    padding-bottom: 2%;
+}
+.continentBreak{
+    clear: both;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+ul li a:hover {
+    background-color: #111;
+}
+.card{
+    width: calc(94%/3);
+    float: left;
+    box-sizing: border-box;
+    margin: 1%;
+}
+@media only screen and (max-width: 768px) {
+    .card{
+    width: calc(94%/2);
+}
+@media only screen and (max-width: 600px) {
+    .card{
+    width: calc(94%/1);
+}
+}
+}
+nav{
+    background-color:#202020;
+    color: white;
+}
+.card .card-title{
+    font-size: 1.2em;
+}
+.card .card-content p{
+    font-size: 1em;
+}
+.card .card-content{
+    padding:13px;
+}
+.row {
+    max-width: 1000px;
+}
+.col img{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.row .border {
+    color: white;
+    border: 1px solid #2e7d32;
+    border-radius: 5px;
+    padding: 1%;
+    margin-top: 0.5%;
+    box-sizing: border-box;
+} 
+.row .col p{
+    color: white;
+    font-size: 0.8em;
+    text-align: center; 
+}
+#mapdiv{
+    padding: 1%;
+}
