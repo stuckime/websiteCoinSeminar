@@ -20,24 +20,24 @@
 			<div class="nav-wrapper">
 				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 				<ul class="left hide-on-med-and-down">
-					<li><a href="home">Home</a></li>
-					<li><a href="namerica">Asia</a></li>
-					<li><a href="namerica">North America</a></li>
-					<li><a href="namerica">South America</a></li>
-					<li><a href="namerica">Africa</a></li>
-					<li><a href="namerica">Oceania</a></li>
-					<li><a href="namerica">Europa</a></li>
-					<li><a href="infos">Infos</a></li>
+					<li><a href="../home">Home</a></li>
+					<li><a href="../namerica">Asia</a></li>
+					<li><a href="../namerica">North America</a></li>
+					<li><a href="../namerica">South America</a></li>
+					<li><a href="../namerica">Africa</a></li>
+					<li><a href="../namerica">Oceania</a></li>
+					<li><a href="../namerica">Europa</a></li>
+					<li><a href="../infos">Infos</a></li>
 				</ul>
 				<ul class="side-nav" id="mobile-demo">
-					<li><a href="home">Home</a></li>
-					<li><a href="namerica">Asia</a></li>
-					<li><a href="namerica">North America</a></li>
-					<li><a href="namerica">South America</a></li>
-					<li><a href="namerica">Africa</a></li>
-					<li><a href="namerica">Oceania</a></li>
-					<li><a href="namerica">Europa</a></li>
-					<li><a href="infos">Infos</a></li>
+					<li><a href="../home">Home</a></li>
+					<li><a href="../namerica">Asia</a></li>
+					<li><a href="../namerica">North America</a></li>
+					<li><a href="../namerica">South America</a></li>
+					<li><a href="../namerica">Africa</a></li>
+					<li><a href="../namerica">Oceania</a></li>
+					<li><a href="../namerica">Europa</a></li>
+					<li><a href="../infos">Infos</a></li>
 				</ul>
 			</div>
 		</nav>
