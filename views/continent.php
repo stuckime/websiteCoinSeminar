@@ -3,7 +3,7 @@
         $category = $_GET['category'];
         ?>
         <div class="continentInfos">
-            <p class="title">Most popular Cities in North America</p>
+            <p class="title">Most popular cities in <?php echo($continent)?> by category <?php echo(strtolower($category))?></p>
 
             <?php 
 
@@ -11,12 +11,13 @@
             $index = getIndexOf($category,$array);
             $array = getSortedArray($index, $array);
 
-            foreach($array as &$city) {
-                //echo($city["name"]."&emsp;&emsp;&emsp;&emsp;&emsp;".$city["rank"]);
+            for($i = 0; $i<count($array); $i++) {
+                $city = $array[$i];
                 ?>
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="images/miami1.PNG">
+                        <img class="activator" src="images/cities/<?php echo($city["name"])?>.jpg">
+                        <span class="caption"><?php echo($i+1)?></span>
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4"><?php echo($city["name"])?><i class="material-icons right">more_vert</i></span>
