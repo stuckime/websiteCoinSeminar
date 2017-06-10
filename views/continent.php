@@ -16,16 +16,12 @@
                 ?>
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="images/cities/<?php echo($city["name"])?>.jpg">
+                        <img class="activator" src="images/<?php echo($continent)?>/<?php echo($city["name"])?>.jpg">
                         <span class="caption"><?php echo($i+1)?></span>
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4"><?php echo($city["name"])?><i class="material-icons right">more_vert</i></span>
-                        <p><a href="#">More Infos</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">New York<i class="material-icons right">close</i></span>
-                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        <span class="card-title activator grey-text text-darken-4"><?php echo($city["name"])?></span>
+                        <p><a href="cities/<?php echo($city["name"])?>">More Infos</a></p>
                     </div>
                 </div>
                     

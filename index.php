@@ -5,7 +5,7 @@
 	$url = explode('/', trim($_SERVER['REQUEST_URI'], '/'));
 	if(!empty($url[1])) {
 		$url[1] = strtolower($url[1]);
-		$url[1] = substr($url[1], 0, strpos($url[1], "?"));
+		//$url[1] = substr($url[1], 0, strpos($url[1], "?"));
 
 		switch($url[1]) {
 			case 'namerica':
@@ -34,8 +34,9 @@
 				break;
 			case 'cities':
 				if (!empty($url[2])){
+					
 					$url[2] = strtolower($url[2]);
-					buildCity($url[2].'.php');
+					buildCity($url[2]);
 				}else{
 					build('home.php');
 				}

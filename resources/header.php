@@ -8,6 +8,8 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="ammap/ammap.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/materialize.min.js" type="text/javascript"></script>
 	<script src="ammap/ammap.js" type="text/javascript"></script>
 	<!-- map file should be included after ammap.js -->
 	<script src="ammap/maps/js/continentsLow.js" type="text/javascript"></script>
