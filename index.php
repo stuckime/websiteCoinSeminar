@@ -1,6 +1,7 @@
 <?php
 	include_once './resources/builder.php';
 	include_once './resources/builderCities.php';
+	include_once './resources/builderContinent.php';
 
 	$url = explode('/', trim($_SERVER['REQUEST_URI'], '/'));
 	if(!empty($url[1])) {
