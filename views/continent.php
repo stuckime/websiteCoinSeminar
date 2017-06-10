@@ -20,7 +20,9 @@
                         <span class="caption"><?php echo($i+1)?></span>
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4"><?php echo($city["name"])?></span>
+                        <span class="card-title activator grey-text text-darken-4"><?php echo($city["name"])?>
+                            <i class="right">rank <?php echo(round($city["rank"],2))?></i>
+                        </span>
                         <p><a href="cities/<?php echo($city["name"])?>">More Infos</a></p>
                     </div>
                 </div>

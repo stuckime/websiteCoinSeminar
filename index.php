@@ -6,6 +6,7 @@
 	if(!empty($url[1])) {
 		$url[1] = strtolower($url[1]);
 		//$url[1] = substr($url[1], 0, strpos($url[1], "?"));
+		echo("</div></div>");
 
 		switch($url[1]) {
 			case 'namerica':
