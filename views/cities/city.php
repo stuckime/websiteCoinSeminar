@@ -6,29 +6,29 @@
       $attractions = getCityAttractions($city);
     ?>
       <h2><?php echo $city ?></h2>
-      
+      <div>
+      <div class="border col s12 m12"><img src="../images/wordcloud.png"></div>
+      <div class="border col s12 m6"><img src="../images/dia1.png"></div>
+      <div class="border col s12 m6">This div is 6-columans wide. Text text text Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </div>
       <div class="border col s12 m12">
+      <h2>Attractions</h2>
       <?php for($i = 0; $i<count($attractions); $i++) {
         $attraction = $attractions[$i];
         ?>
         <div class="card">
           <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="images/africa/algier.jpg">
+            <img class="activator" src="../images/attractions/<?php echo($attraction["name"])?>.jpg">
             <span class="caption"><?php echo($i+1)?></span>
           </div>
           <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4"><?php echo($i+1)?>
-            <i class="right"><?php echo($attraction["name"])?></i>
+          <span class="card-title activator grey-text text-darken-4"><?php echo($attraction["name"])?>
+            <i class="right"><?php echo(round($attraction["rank"],2))?></i>
           </span>
         </div>
       </div>
       <?php
         }
       ?>
-      <div>
-      <div class="border col s12 m12"><img src="../images/wordcloud.png"></div>
-      <div class="border col s12 m6"><img src="../images/dia1.png"></div>
-      <div class="border col s12 m6">This div is 6-columans wide. Text text text Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </div>
     </div>
 
   <?php
