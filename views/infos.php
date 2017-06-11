@@ -27,9 +27,34 @@
             <div class="col s6 m3"> <img class="responsive-img circle " src="images/team/ali.jpg">
                 <p>Ali Dulla</br>MSc International Info. Sys. Mng.</p>
             </div>
-            <h2 class="col s12 m12">Vorgehen</h2>
-            <div class="border col s12 m12">
-                <p>Sandra Hohl</br> Informatik ICompetence</p>
+            <h2 class="col s12 m12">Approach</h2>
+            <div class="col s12 m12">
+                <ol>
+                    <li><b>Iteration</b>
+                       <ul>
+                           <li>Defining the goal and the tasks with all team members</li>
+                           <li>Condor- Beginners: Getting familiar with Condor</li>
+                           <li>Start fetching general data</li>
+                       </ul> 
+                    </li>
+                    <li><b>Iteration</b>
+                        <ul>
+                           <li>Building teams of 2 members</li>
+                           <li>Data fetching via Condor for each continent</li>
+                           <li>Developing TripAdvisor Crawler</li>
+                       </ul> 
+                    </li>
+                    <li><b>Iteration</b>
+                        <ul>
+                           <li>Creating content for the website</li>
+                           <li>Creating the website</li>
+                           <li>Ongoing work with TripAdvisor crawler
+</li>
+                       </ul> 
+                    </li>
+                </ol>
+<div class="row"></<div>
+    
             </div>
         </div>
  
