@@ -77,10 +77,14 @@
                 <?php
             }
             ?>
-            
-        </div>
         <div class="continentBreak"> </div>
-
+            <div>
+            <h4>Betweenness</h4>
+      <div class="col s12 m12"><img src="../images/betweenness/<?php echo $continent ?>.png" ></div>                
+        </div> 
+        </div>
+       
+        
         <?php
 
         function getIndexOfAttraction($key,$data){

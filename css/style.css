@@ -16,7 +16,7 @@ footer {
     text-align: right;
 }
 
-h2,h4 {
+h2{
     color: white;
     max-width: 1000px;
     margin-left: auto;
@@ -25,6 +25,14 @@ h2,h4 {
     margin-bottom: 0;
     padding-top: 3%;
     padding-bottom: 3%;
+}
+
+h4{
+    color: white;
+}
+
+ol li{
+    color:white;
 }
 
 #headerImg p {

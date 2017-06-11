@@ -28,8 +28,18 @@
                 <p>Ali Dulla</br>MSc International Info. Sys. Mng.</p>
             </div>
             <h2 class="col s12 m12">Vorgehen</h2>
-            <div class="border col s12 m12">
-                <p>Sandra Hohl</br> Informatik ICompetence</p>
+            <div class="col s12 m12">
+                <ol>
+                    <li>
+                        Pre-Work to get the keywords
+                       <ul>
+                           <li>Finding general keywords for “travel”</li>
+                           <li>Finding general keywords for “summer activities”</li>
+                       </ul> 
+                    </li>
+                    <li>Get the cities by web fetching</li>
+                </ol>
+</p>
             </div>
         </div>
  
