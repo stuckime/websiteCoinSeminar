@@ -63,7 +63,7 @@
                 ?>
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="../images/<?php echo($continent)?>/<?php echo($city["name"])?>.jpg">
+                        <img class="activator" src="../images/<?php echo(strtolower($continent))?>/<?php echo($city["name"])?>.jpg">
                         <span class="caption"><?php echo($i+1)?></span>
                     </div>
                     <div class="card-content">
