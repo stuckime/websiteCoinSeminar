@@ -14,48 +14,48 @@ Istanbul;Asia;41.008238;28.978359
 Manila;Asia;14.599512;120.984219
 Dhaka Division;Asia;23.953574;90.149499
 Hong Kong;Asia;22.396428;114.109497
-Ho Chi Minh City;Asia;;
-Tokyo;Asia;;
-Kuala Lumpur;Asia;;
-Singapore;Asia;;
-Phnom Penh;Asia;;
-New York City;NorthAmerica;;
-Orlando;NorthAmerica;;
-New Orleans;NorthAmerica;;
-Dallas;NorthAmerica;;
-Seattle;NorthAmerica;;
-Chicago;NorthAmerica;;
-Miami;NorthAmerica;;
-Washington DC;NorthAmerica;;
-Las Vegas;NorthAmerica;;
-Mexico City;NorthAmerica;;
-Melbourne;Oceania;;
-Sydney;Oceania;;
-Hobart;Oceania;;
-Suva;Oceania;;
-Port Moresby;Oceania;;
-Bora Bora;Oceania;;
-Perth;Oceania;;
-Adelaide;Oceania;;
-Papeete;Oceania;;
-Auckland;Oceania;;
-Santiago;SouthAmerica;;
-Buenos Aires;SouthAmerica;;
-Asuncion;SouthAmerica;;
-Caracas;SouthAmerica;;
-Montevideo;SouthAmerica;;
-Rio de Janeiro;SouthAmerica;;
-Quito;SouthAmerica;;
-La Paz;SouthAmerica;;
-Lima;SouthAmerica;;
-Bogota;SouthAmerica;;
-Berlin;Europe;;
-Rhodes;Europe;;
-Athens;Europe;;
-Dublin;Europe;;
-Rome;Europe;;
-Cork;Europe;;
-Lisbon;Europe;;
-Paris;Europe;;
-London;Europe;;
-Warsaw;Europe;;
+Ho Chi Minh City;Asia;10.823099;106.629664
+Tokyo;Asia;35.689487;139.691706
+Kuala Lumpur;Asia;3.139003;101.686855
+Singapore;Asia;1.352083;103.819836
+Phnom Penh;Asia;11.544873;104.892167
+New York City;NorthAmerica;40.712784;-74.005941
+Orlando;NorthAmerica;28.538335;-81.379236
+New Orleans;NorthAmerica;29.951066;-90.071532
+Dallas;NorthAmerica;32.776664;-96.796988
+Seattle;NorthAmerica;47.606209;-122.332071
+Chicago;NorthAmerica;41.878114;-87.629798
+Miami;NorthAmerica;25.761680;-80.191790
+Washington DC;NorthAmerica;38.907192;-77.036871
+Las Vegas;NorthAmerica;36.169941;-115.139830
+Mexico City;NorthAmerica;19.432608;-99.133208
+Melbourne;Oceania;-37.813628;144.963058
+Sydney;Oceania;-33.868820;151.209296
+Hobart;Oceania;30.735925;31.620885
+Suva;Oceania;-18.124809;178.450079
+Port Moresby;Oceania;-9.478012;147.150654
+Bora Bora;Oceania;-16.500413;-151.741490
+Perth;Oceania;-31.950527;115.860457
+Adelaide;Oceania;-34.928499;138.600746
+Papeete;Oceania;-17.551625;-149.558476
+Auckland;Oceania;-36.848460;174.763332
+Santiago;SouthAmerica;-33.448890;-70.669265
+Buenos Aires;SouthAmerica;-34.603684;-58.381559
+Asuncion;SouthAmerica;-25.263740;-57.575926
+Caracas;SouthAmerica;10.480594;-66.903606
+Montevideo;SouthAmerica;-34.901113;-56.164531
+Rio de Janeiro;SouthAmerica;-22.906847;-43.172896
+Quito;SouthAmerica;-0.180653;-78.467838
+La Paz;SouthAmerica;-16.489689;-68.119294
+Lima;SouthAmerica;-12.046373;-77.042754
+Bogota;SouthAmerica;4.710989;-74.072092
+Berlin;Europe;52.520007;13.404954
+Rhodes;Europe;43.901911;-84.176087
+Athens;Europe;37.983810;23.727539
+Dublin;Europe;53.349805;-6.260310
+Rome;Europe;41.902783;12.496366
+Cork;Europe;51.896892;-8.486316
+Lisbon;Europe;38.722252;-9.139337
+Paris;Europe;48.856614;2.352222
+London;Europe;51.507351;0.0
+Warsaw;Europe;52.229676;21.012229

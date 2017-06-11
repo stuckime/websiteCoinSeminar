@@ -85,6 +85,10 @@ ul li a:hover {
     background-color: #111;
 }
 
+ol li ul li{
+    list-style-type: circle !important;
+}
+
 .card {
     width: calc(94%/3);
     float: left;

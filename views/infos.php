@@ -30,16 +30,31 @@
             <h2 class="col s12 m12">Vorgehen</h2>
             <div class="col s12 m12">
                 <ol>
-                    <li>
-                        Pre-Work to get the keywords
+                    <li><b>Iteration</b>
                        <ul>
-                           <li>Finding general keywords for “travel”</li>
-                           <li>Finding general keywords for “summer activities”</li>
+                           <li>Defining the goal and the tasks with all team members</li>
+                           <li>Condor- Beginners: Getting familiar with Condor</li>
+                           <li>Start fetching general data</li>
                        </ul> 
                     </li>
-                    <li>Get the cities by web fetching</li>
+                    <li><b>Iteration</b>
+                        <ul>
+                           <li>Building teams of 2 members</li>
+                           <li>Data fetching via Condor for each continent</li>
+                           <li>Developing TripAdvisor Crawler</li>
+                       </ul> 
+                    </li>
+                    <li><b>Iteration</b>
+                        <ul>
+                           <li>Creating content for the website</li>
+                           <li>Creating the website</li>
+                           <li>Ongoing work with TripAdvisor crawler
+</li>
+                       </ul> 
+                    </li>
                 </ol>
-</p>
+<div class="row"></<div>
+    
             </div>
         </div>
  
