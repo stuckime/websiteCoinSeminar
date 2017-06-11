@@ -27,7 +27,7 @@
             <div class="col s6 m3"> <img class="responsive-img circle " src="images/team/ali.jpg">
                 <p>Ali Dulla</br>MSc International Info. Sys. Mng.</p>
             </div>
-            <h2 class="col s12 m12">Vorgehen</h2>
+            <h2 class="col s12 m12">Approach</h2>
             <div class="col s12 m12">
                 <ol>
                     <li><b>Iteration</b>
