@@ -2,25 +2,45 @@
                     
                 <p class="title">Most popular Cities in North America</p>
                 <div class="row">
-        <form class="col s12">
+        <form class="col s12" action="/action_page.php" method="get">
         <div class="row">
             <div class="input-field col s6">
-                <select id="main">
+                <select id="main" name="category">
                 <option value="" disabled selected>Choose your option</option>
-                <option value="1">Top 10 cities</option>
-                <option value="2">Option 2</option>
-                <option value="3">Option 3</option>
+                <option value="Driving">Driving</option>
+                <option value="Sports">Sports</option>
+                <option value="Music">Music</option>
+                <option value="Party">Party</option>
+                <option value="Markets">Markets</option>
+                <option value="Events">Events</option>
+                <option value="Shopping">Shopping</option>
+                <option value="Nature">Nature</option>
+                <option value="Sophistication">Sophistication</option>
+                <option value="Water">Water</option>
+                <option value="Adventure">Adventure</option>
+                <option value="Relaxation">Relaxation</option>
+                <option value="Surfing">Surfing</option>
+                <option value="Animals">Animals</option>
+                <option value="Skydiving">Skydiving</option>
+                <option value="Kayaking">Kayaking</option>
+                <option value="Food&Drink">Food and Drink</option>
+                <option value="Nightlife">Nightlife</option>
+                <option value="Fun">Fun</option>
+                <option value="Biking">Biking</option>
+                <option value="Outlook">Outlook</option>
+                <option value="Art">Art</option>
+                <option value="Wintersports">Wintersports</option>
+                <option value="Hiking">Hiking</option>
+                <option value="Outlook">Outlook</option>
+                <option value="Culture">Culture</option>
+                <option value="Tours">Tours</option>
+                <option value="Diving">Diving</option>
+                <option value="Sightseeing">Sightseeing</option>
                 </select>
-                <label>Main Select</label>
+                <label>Filter Top Cities for </label>
             </div>
-<div class="input-field col s6">
-                <select id="main">
-                <option value="" disabled selected>Choose your option</option>
-                <option value="1">Top 10 cities</option>
-                <option value="2">Option 2</option>
-                <option value="3">Option 3</option>
-                </select>
-                <label>2nd Select</label>
+            <div class="input-field col s6">
+               <input type="submit" class="waves-effect waves-light btn" value="filtern">
             </div>
             </div>
             </form>     

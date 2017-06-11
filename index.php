@@ -1,4 +1,5 @@
 <?php
+session_start();
 	include_once './resources/builder.php';
 	include_once './resources/builderCities.php';
 	include_once './resources/Utility.php';
@@ -8,10 +9,14 @@
 		$url[1] = strtolower($url[1]);
 		//$url[1] = substr($url[1], 0, strpos($url[1], "?"));
 		echo("</div></div>");
-
 		switch($url[1]) {
-			case 'namerica':
-				build('namerica.php');
+			case 'continent':
+				if (!empty($url[2])){
+					$_SESSION['continent'] = $url[2];
+					build('continent.php');
+				}else{
+					build('home.php');
+				}
 				break;
 			case 'samerica':
 				build('samerica.php');
