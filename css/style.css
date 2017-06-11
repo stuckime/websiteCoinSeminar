@@ -78,6 +78,9 @@ ol li{
     clear: both;
 }
 
+#filterButton{
+    line-height: inherit;
+}
 
 /* Change the link color to #111 (black) on hover */
 

@@ -47,7 +47,7 @@
                 <label>Filter Top Cities for </label>
             </div>
             <div class="input-field col s6">
-               <a type="submit" class="waves-effect waves-light btn" >filtern</a>
+               <input type="submit" class="waves-effect waves-light btn" id ="filterButton" value="filtern">
             </div>
             </div>
             </form>     
