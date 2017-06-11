@@ -1,6 +1,6 @@
         <?php
-        $continent = $_GET['continent'];
-        $category = $_GET['category'];
+        $continent = "Asia";//$_GET['continent'];
+        $category = "Hiking";//$_GET['category'];
         ?>
         <div class="continentInfos">
             <p class="title">Most popular cities in <?php echo($continent)?> by category <?php echo(strtolower($category))?></p>
@@ -8,7 +8,7 @@
             <?php 
 
             $array = loadCSV("data/".$continent.".csv");
-            $index = getIndexOf($category,$array);
+            $index = getIndexOfAttraction($category,$array);
             $array = getSortedArray($index, $array);
 
             for($i = 0; $i<count($array); $i++) {
@@ -35,20 +35,8 @@
         <div class="continentBreak"> </div>
 
         <?php
-        function loadCSV($file) {
-            $result;
-            $row = 0;
-            if (($handle = fopen($file, "r")) !== FALSE) {
-                while (($data = fgetcsv($handle, 1000, ";")) !== FALSE) {
-                    $result[$row] = $data;
-                    $row++;
-                }
-                fclose($handle);
-            }
-            return $result;            
-    	}
 
-        function getIndexOf($key,$data){
+        function getIndexOfAttraction($key,$data){
             $result = -1;
             for($i = 0; $i<count($data[3]); $i++) {
                 if($data[0][$i] == $key) {

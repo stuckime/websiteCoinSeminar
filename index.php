@@ -1,7 +1,7 @@
 <?php
 	include_once './resources/builder.php';
 	include_once './resources/builderCities.php';
-	include_once './resources/builderContinent.php';
+	include_once './resources/Utility.php';
 
 	$url = explode('/', trim($_SERVER['REQUEST_URI'], '/'));
 	if(!empty($url[1])) {
@@ -37,7 +37,7 @@
 			case 'cities':
 				if (!empty($url[2])){
 					
-					$url[2] = strtolower($url[2]);
+					//$url[2] = strtolower($url[2]);
 					buildCity($url[2]);
 				}else{
 					build('home.php');
