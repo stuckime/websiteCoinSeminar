@@ -9,6 +9,18 @@
       <div>
         <h4>Word Cloud</h4>
       <div class="col s12 m12"><img src="../images/wordclouds/<?php echo $city ?>.png" ></div>
+      <?php
+        $path = realpath('../images/'.$_SESSION['continent'].'/'.$city.'.png');
+        if (file_exists($path)){
+          ?>
+          <div class="col s12 m12">
+          <img src="../images/<?php echo $_SESSION['continent']?>/<?php echo $city ?>.png" >
+          </div>
+          <?php
+
+        }
+      ?>
+      
       <div class="col s12 m12">
       <h4>Attractions</h4>
       <?php for($i = 0; $i<count($attractions); $i++) {

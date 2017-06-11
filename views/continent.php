@@ -78,10 +78,33 @@
             }
             ?>
         <div class="continentBreak"> </div>
-            <div>
+        <?php
+        $path = "images\\betweenness\\".$continent.".png";
+        $dir = __DIR__;
+        $dir = explode("views", $dir);
+        if (file_exists($dir[0].$path)){
+          ?>
+             <div>
+            
             <h4>Betweenness</h4>
-      <div class="col s12 m12"><img src="../images/betweenness/<?php echo $continent ?>.png" ></div>                
+      <div class="col s12 m12"><img class="padding" src="./../images/betweenness/<?php echo $continent ?>.png" ></div>                
         </div> 
+          <?php
+
+        }
+
+        $path = "images\\".$continent."\\".$continent.".png";
+        $dir = __DIR__;
+        $dir = explode("views", $dir);
+        if (file_exists($dir[0].$path)){
+          ?>
+             <div>
+      <div class="col s12 m12"><img class="padding" src="../images/<?php echo $continent ?>/<?php echo $continent ?>.png" ></div>                
+        </div> 
+        <?php
+        }
+      ?>
+           
         </div>
        
         
