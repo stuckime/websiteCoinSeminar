@@ -79,6 +79,9 @@
             ?>
         <div class="continentBreak"> </div>
         <?php
+
+
+        
         $path = "images\\betweenness\\".$continent.".png";
         $dir = __DIR__;
         $dir = explode("views", $dir);
@@ -92,6 +95,8 @@
           <?php
 
         }
+
+
 
         $path = "images\\".$continent."\\".$continent.".png";
         $dir = __DIR__;
