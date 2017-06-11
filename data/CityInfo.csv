@@ -19,43 +19,43 @@ Tokyo;Asia;35.689487;139.691706
 Kuala Lumpur;Asia;3.139003;101.686855
 Singapore;Asia;1.352083;103.819836
 Phnom Penh;Asia;11.544873;104.892167
-New York City;North America;40.712784;-74.005941
-Orlando;North America;28.538335;-81.379236
-New Orleans;North America;29.951066;-90.071532
-Dallas;North America;32.776664;-96.796988
-Seattle;North America;47.606209;-122.332071
-Chicago;North America;41.878114;-87.629798
-Miami;North America;25.76168;-80.19179
-Washington DC;North America;38.907192;-77.036871
-Las Vegas;North America;36.169941;-115.13983
-Mexico City;North America;19.432608;-99.133208
-Melbourne;Oceanina;-37.813628;144.963058
-Sydney;Oceanina;-33.86882;151.209296
-Hobart;Oceanina;41.532259;-87.255035
-Suva;Oceanina;-18.124809;178.450079
-Port Moresby;Oceanina;-9.478012;147.150654
-Bora Bora;Oceanina;-16.500413;-151.74149
-Perth;Oceanina;-31.950527;115.860457
-Adelaide;Oceanina;-34.928499;138.600746
-Papeete;Oceanina;-17.551625;-149.558476
-Auckland;Oceanina;-36.84846;174.763332
-Santiago;South America;;
-Buenos Aires;South America;;
-Asuncion;South America;;
-Caracas;South America;;
-Montevideo;South America;;
-Rio de Janeiro;South America;;
-Quito;South America;;
-La Paz;South America;;
-Lima;South America;;
-Bogota;South America;;
-Berlin;Europe;;
-Rhodes;Europe;;
-Athens;Europe;;
-Dublin;Europe;;
-Rome;Europe;;
-Cork;Europe;;
-Lisbon;Europe;;
-Paris;Europe;;
-London;Europe;;
-Warsaw;Europe;;
+New York City;NorthAmerica;40.712784;-74.005941
+Orlando;NorthAmerica;28.538335;-81.379236
+New Orleans;NorthAmerica;29.951066;-90.071532
+Dallas;NorthAmerica;32.776664;-96.796988
+Seattle;NorthAmerica;47.606209;-122.332071
+Chicago;NorthAmerica;41.878114;-87.629798
+Miami;NorthAmerica;25.761680;-80.191790
+Washington DC;NorthAmerica;38.907192;-77.036871
+Las Vegas;NorthAmerica;36.169941;-115.139830
+Mexico City;NorthAmerica;19.432608;-99.133208
+Melbourne;Oceania;-37.813628;144.963058
+Sydney;Oceania;-33.868820;151.209296
+Hobart;Oceania;30.735925;31.620885
+Suva;Oceania;-18.124809;178.450079
+Port Moresby;Oceania;-9.478012;147.150654
+Bora Bora;Oceania;-16.500413;-151.741490
+Perth;Oceania;-31.950527;115.860457
+Adelaide;Oceania;-34.928499;138.600746
+Papeete;Oceania;-17.551625;-149.558476
+Auckland;Oceania;-36.848460;174.763332
+Santiago;SouthAmerica;-33.448890;-70.669265
+Buenos Aires;SouthAmerica;-34.603684;-58.381559
+Asuncion;SouthAmerica;-25.263740;-57.575926
+Caracas;SouthAmerica;10.480594;-66.903606
+Montevideo;SouthAmerica;-34.901113;-56.164531
+Rio de Janeiro;SouthAmerica;-22.906847;-43.172896
+Quito;SouthAmerica;-0.180653;-78.467838
+La Paz;SouthAmerica;-16.489689;-68.119294
+Lima;SouthAmerica;-12.046373;-77.042754
+Bogota;SouthAmerica;4.710989;-74.072092
+Berlin;Europe;52.520007;13.404954
+Rhodes;Europe;43.901911;-84.176087
+Athens;Europe;37.983810;23.727539
+Dublin;Europe;53.349805;-6.260310
+Rome;Europe;41.902783;12.496366
+Cork;Europe;51.896892;-8.486316
+Lisbon;Europe;38.722252;-9.139337
+Paris;Europe;48.856614;2.352222
+London;Europe;51.507351;0.0
+Warsaw;Europe;52.229676;21.012229
