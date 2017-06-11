@@ -87,6 +87,17 @@
 				}],	
 				images: [
 					{ latitude: 40.3951, longitude: -73.5619, svgPath: icon, color: "#2e7d32", scale: 0.04, label: "New York", labelShiftY: 2, zoomLevel: 5, title: "New York", description: "New York is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world. <a href='namerica.html'>Mehr Infos</a>" },
+					
+					<?php
+					$cities = getCitiesInfo();
+					for($i = 1; $i<count($cities); $i++) {
+							if($cities[$i][2]!=0) {
+							?>
+							{ latitude: <?php echo($cities[$i][2])?>, longitude: <?php echo($cities[$i][3])?>, svgPath: icon, color: "#2e7d32", scale: 0.04, label: "<?php echo($cities[$i][0])?>", labelShiftY: 2, zoomLevel: 5, title: "<?php echo($cities[$i][0])?>", description: "<a href='cities/<?php echo($cities[$i][0])?>'>Mehr Infos</a>" },
+							<?php
+							}
+						}
+					?>
 					{ latitude: 37.7739, longitude: -122.431297, svgPath: icon, color: "#2e7d32", scale: 0.04, label: "San Francisco", labelShiftY: 2, zoomLevel: 5, title: "San Francisco", description: "San Francisco is the most populous city in the United States and the center of the New York Metropolitan Area, one of the most populous metropolitan areas in the world. <a href='namerica.html'>Mehr Infos</a>" }
 				]
 			};

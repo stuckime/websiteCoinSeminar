@@ -1,19 +1,19 @@
 Name;Continent;Lat;Long
-Marrakech;Africa;;
-Casablanca;Africa;;
-Cape Town;Africa;;
-Livingstone;Africa;;
-Johannesburg;Africa;;
-Durban;Africa;;
-Cairo;Africa;;
-Algiers;Africa;;
-Sharm El Sheikh;Africa;;
-Arusha;Africa;;
-Seoul;Asia;;
-Istanbul;Asia;;
-Manila;Asia;;
-Dhaka Division;Asia;;
-Hong Kong;Asia;;
+Marrakech;Africa;31.629472;-7.981084
+Casablanca;Africa;33.57311;7.589843
+Cape Town;Africa;-33.924869;18.424055
+Livingstone;Africa;-17.851979;25.828515
+Johannesburg;Africa;-26.204103;28.047305
+Durban;Africa;-29.85868;31.02184
+Cairo;Africa;30.04442;31.235712
+Algiers;Africa;36.753768;3.058756
+Sharm El Sheikh;Africa;27.915817;34.32995
+Arusha;Africa;-3.386925;36.682993
+Seoul;Asia;37.566535;126.977969
+Istanbul;Asia;41.008238;28.978359
+Manila;Asia;14.599512;120.984219
+Dhaka Division;Asia;23.953574;90.149499
+Hong Kong;Asia;22.396428;114.109497
 Ho Chi Minh City;Asia;;
 Tokyo;Asia;;
 Kuala Lumpur;Asia;;

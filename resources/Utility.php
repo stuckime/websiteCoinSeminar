@@ -10,6 +10,10 @@ function getCityInfo($city) {
     return $cities[$city]; 
 }
 
+function getCitiesInfo() {
+    return loadCSV("data/CityInfo.csv");
+}
+
 function getContinentOfCity($city) {
     return getCityInfo($city)[1];
 }
